@@ -15,7 +15,7 @@ Cross-platform SMS messaging functionality built for iOS, Android and Windows.
 ### Manual installation
 
 
-#### iOS (Not yet supported)
+#### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
 2. Go to `node_modules` ➜ `react-native-sms` and add `RNSms.xcodeproj`
@@ -50,9 +50,8 @@ Cross-platform SMS messaging functionality built for iOS, Android and Windows.
 ```javascript
 import RNSms from './<directory>/react-native-sms';
 
-RNSms.sendMessage('09396531608', 'Your Message');
+RNSms.sendMessage(['09396531608'], 'Your Message');
 ```
 
 ## Todo
-* iOS Support
 * Callbacks (if needed)
