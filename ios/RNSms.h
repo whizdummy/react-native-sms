@@ -5,7 +5,8 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
+#import <MessageUI/MessageUI.h>
+
 @interface RNSms : NSObject <RCTBridgeModule>
 
 @end
-  
